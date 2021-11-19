@@ -1,0 +1,81 @@
+*{
+    margin: 0;
+    box-sizing: border-box;
+}
+/*header*/
+header{
+    position: sticky;
+    top: 10px;
+    z-index: 1;
+    height: 100px;
+}
+header .descuento{
+    background-color: #1CD1B0;
+}
+header div + div{
+    background-color: #00669f;
+}
+/*body*/
+body{
+    /*min-height: 100vhp;*/
+}
+main{
+    max-height: calc(100vh - 160px );/*es el 100% disponible de la ventana del navegador y eso lo que ocupa el header y el footer*/
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+article{
+    height: 439px;
+    width: 300px;
+    display: inline-block;
+    position: relative;
+    margin: 32px;
+    box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.5);
+    background-color: #f3f3f3;
+    text-align: center;
+}
+article .corazon{
+    position: absolute;
+    top: 21px;
+    left: 21px;
+}
+article .imgperfil{
+    border-radius: 100%;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    position: absolute;
+    top: 128px;
+    left: 90px;
+}
+h2{
+    margin-top: 74px;
+}
+.descripcion{
+    margin-top: 10px;
+    margin-left: 16px;
+    margin-right: 16px;
+}
+div.a{
+    background-color: #00669f;
+    height: 48px;
+    width: 129px;
+    margin-top: 20px;
+    margin-left: 85px;
+    position: relative;
+}
+a{
+    color: white;
+    position: absolute;
+    bottom: 13px;
+    right: 35px;
+}
+/*footer*/
+footer{
+    text-align: center;
+    background-color: #00669f;
+    bottom: 0px;
+    height: 35px;
+}
+.footer{
+    color: white;
+}
